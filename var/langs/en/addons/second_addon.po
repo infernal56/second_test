@@ -1,0 +1,57 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::second_addon"
+msgid "Second_addon"
+msgstr "Second_addon"
+
+msgctxt "Addons::description::second_addon"
+msgid "A dummy add-on for easier hook design editing"
+msgstr "A dummy add-on for easier hook design editing"
+
+msgctxt "Languages::old_status"
+msgid "old status"
+msgstr "old status"
+
+msgctxt "Languages::history"
+msgid "history"
+msgstr "History of order status changes"
+
+msgctxt "Languages::updated_status"
+msgid "updated status"
+msgstr "updated status"
+
+msgctxt "Languages::status_history.cancelled"
+msgid "Canceled"
+msgstr "Canceled"
+
+msgctxt "Languages::status_history.awaiting_call"
+msgid "Awaiting call"
+msgstr "Awaiting call"
+
+msgctxt "Languages::status_history.failure"
+msgid "Failure"
+msgstr "Failure"
+
+msgctxt "Languages::status_history.declined"
+msgid "Declined"
+msgstr "Declined"
+
+msgctxt "Languages::status_history.postponed"
+msgid "Postponed"
+msgstr "Postponed"
+
+msgctxt "Languages::status_history.success"
+msgid "Processed"
+msgstr "Processed"
+
+msgctxt "Languages::status_history.opened"
+msgid "Opened"
+msgstr "Opened"
+
+msgctxt "Languages::status_history.onwork"
+msgid "On work"
+msgstr "On work"

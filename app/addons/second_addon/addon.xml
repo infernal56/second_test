@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>second_addon</id>
+    <version>1.0</version>
+    <priority>100</priority>
+    <status>active</status>
+    <queries>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:status_history;</item>
+        <item>
+            CREATE TABLE `?:status_history` (
+            `order_id` mediumint(8) unsigned NOT NULL,
+            `old_status` char(1) NOT NULL default 'A',
+            `new_status` char(1) NOT NULL default 'G',
+            `user_id` mediumint(8) NOT NULL ,
+            `timestamp` int(11) unsigned NOT NULL default '0'
+            )  Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item for="uninstall">DROP TABLE IF EXISTS ?:status_history;</item>
+    </queries>
+    <default_language>ru</default_language>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+</addon>
